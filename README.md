@@ -25,6 +25,10 @@ Manage start and stop of Cloudera Manager clusters in Google Cloud through CM an
 Before doing any Google Cloud operation you need to login:
 
 	gcloud auth login
+	
+Be sure to give the right permissions to the script:
+
+	chmod +x gmcloud.py
 
 Start the Google Cloud instances and Hadoop Cluster Services
 
